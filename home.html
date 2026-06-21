@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page informativa sobre diagnóstico financiero económico.">
+  <title>Inicio | Diagnóstico Financiero Económico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="home.html" class="brand" aria-label="Inicio"><span class="brand-icon">DF</span><span>Diagnóstico
+          Financiero</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú"
+        aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="home.html">Inicio</a></li>
+        <li><a href="diagnostico.html">Diagnóstico</a></li>
+        <li><a href="indicadores.html">Indicadores</a></li>
+        <li><a href="recursos.html">Videos y recursos</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero hero-home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Análisis económico claro y estratégico</p>
+          <h1>Diagnóstico financiero económico </h1>
+          <p class="hero-text">Evalúa la situación real de una empresa mediante indicadores financieros, análisis
+            económico, liquidez, rentabilidad, endeudamiento y gestión. Una mirada clara para detectar problemas,
+            oportunidades y acciones de mejora.</p>
+          <div class="hero-actions"><a href="diagnostico.html" class="btn btn-primary">Conocer diagnóstico</a><a
+              href="indicadores.html" class="btn btn-secondary">Ver indicadores</a></div>
+        </div>
+        <div class="hero-card reveal">
+          <img src="img/financial-dashboard.svg" alt="Ilustración de dashboard financiero">
+          <div class="metric-card metric-one"><strong>360°</strong><span>Visión económica</span></div>
+          <div class="metric-card metric-two"><strong>+45%</strong><span>Claridad decisional</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container section-heading reveal">
+        <p class="eyebrow">Explora rápido</p>
+        <h2>Áreas principales del diagnóstico</h2>
+        <p>Un diagnóstico no es solo mirar números: es entender cómo se comporta la empresa, qué riesgos enfrenta y qué
+          decisiones necesita tomar.</p>
+      </div>
+      <div class="carousel-wrap reveal">
+        <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+        <div class="service-carousel" id="serviceCarousel">
+          <article class="carousel-card" style="background-image:url('img/coins.svg')">
+            <h3>Soporte constante</h3>
+          </article>
+          <article class="carousel-card" style="background-image:url('img/growth.svg')">
+            <h3>Análisis rápido</h3>
+          </article>
+          <article class="carousel-card" style="background-image:url('img/analysis.svg')">
+            <h3>Asesoría financiera</h3>
+          </article>
+          <article class="carousel-card" style="background-image:url('img/market.svg')">
+            <h3>Reportes detallados</h3>
+          </article>
+          <article class="carousel-card" style="background-image:url('img/planning.svg')">
+            <h3>Planificación</h3>
+          </article>
+        </div>
+        <button class="carousel-btn next" aria-label="Siguiente">›</button>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container section-heading center reveal">
+        <p class="eyebrow light">Contenido audiovisual</p>
+        <h2>Una mirada a nuestras finanzas</h2>
+        <p>Videos integrados para reforzar la explicación visual del diagnóstico, los mercados y el análisis económico.
+        </p>
+      </div>
+      <div class="video-grid container reveal">
+        <div class="video-card">
+          <video controls autoplay muted loop playsinline title="Video financiero 2">
+            <source src="img/DIAGNÓSTICO EMPRESARIAL 📑 - Aspectos básicos 🏗 ECONOMÍA Pyme.publer.com.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="info-grid">
+        <article class="info-card reveal"><span class="card-number">01</span>
+          <h3>Detectar riesgos</h3>
+          <p>Permite reconocer problemas de liquidez, exceso de deuda, baja rentabilidad o gastos mal controlados antes
+            de que se conviertan en crisis.</p>
+        </article>
+        <article class="info-card reveal"><span class="card-number">02</span>
+          <h3>Interpretar resultados</h3>
+          <p>Convierte datos contables en información útil para explicar la salud económica y financiera de una
+            organización.</p>
+        </article>
+        <article class="info-card reveal"><span class="card-number">03</span>
+          <h3>Planificar mejoras</h3>
+          <p>Ayuda a definir acciones concretas para optimizar costos, márgenes, ventas, recursos y sostenibilidad.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><strong>Diagnóstico Financiero Económico</strong>
+        <p>
+          Landing page
+        </p>
+      </div>
+      <div><span>© 2026</span>
+        <p>AaronRenatoLazarteMatos</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
