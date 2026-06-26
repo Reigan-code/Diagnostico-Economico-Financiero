@@ -6,35 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Landing page informativa sobre diagnóstico financiero económico.">
   <title>Equipo | Diagnóstico Financiero Económico</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+
   <header class="site-header">
     <nav class="navbar container">
-      <a href="index.html" class="brand" aria-label="Inicio"><span class="brand-icon">DF</span><span>Diagnóstico
-          Financiero</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú"
-        aria-expanded="false"><span></span><span></span><span></span></button>
+
+      <a href="index.html" class="brand" aria-label="Inicio">
+        <span class="brand-icon">DF</span>
+        <span>Diagnóstico Financiero</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="diagnostico.html">Diagnóstico</a></li>
         <li><a href="indicadores.html">Indicadores</a></li>
         <li><a href="recursos.html">Videos y recursos</a></li>
-        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="equipo.html" class="active">Equipo</a></li>
         <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
       </ul>
+
     </nav>
   </header>
+
   <main>
+
+    <!-- SECCIÓN EQUIPO -->
     <section class="team-hero">
       <div class="container center reveal">
+
+        <p class="eyebrow light">Equipo académico</p>
         <h1>Nuestro poderoso equipo</h1>
-        <p>Un grupo preparado para interpretar información financiera, económica y estratégica.</p>
+        <p>
+          Un grupo preparado para interpretar información financiera, económica y estratégica.
+        </p>
+
         <div class="mini-team">
+
           <div class="member-card">
             <img src="img/Héctor Mauricio Chávez Leveau.jpeg" alt="Foto de Héctor Mauricio Chávez Leveau">
             <strong>Héctor Mauricio Chávez Leveau</strong>
@@ -64,37 +85,102 @@
             <strong>Aaron Renato Lazarte Matos</strong>
             <small>Integrante</small>
           </div>
+
         </div>
       </div>
     </section>
 
+    <!-- SECCIÓN DOCENTE -->
+    <section class="section teacher-section">
+      <div class="container teacher-card reveal">
+
+        <div class="teacher-avatar">
+          <span>KM</span>
+        </div>
+
+        <div class="teacher-content">
+          <p class="eyebrow">Docente del curso</p>
+
+          <h2>Mg. Khunji Marilyn Alarcón Jiménez</h2>
+
+          <p>
+            Docente del curso <strong>Análisis e Interpretación de los Estados Financieros</strong>,
+            de la <strong>Universidad Nacional de San Martín - UNSM</strong>.
+          </p>
+
+          <div class="teacher-info">
+
+            <div>
+              <strong>Curso</strong>
+              <span>Análisis e Interpretación de los Estados Financieros</span>
+            </div>
+
+            <div>
+              <strong>Institución</strong>
+              <span>Universidad Nacional de San Martín - UNSM</span>
+            </div>
+
+            <div>
+              <strong>Ubicación</strong>
+              <span>Tarapoto - San Martín, Perú</span>
+            </div>
+
+            <div>
+              <strong>ORCID</strong>
+              <a href="https://orcid.org/0009-0009-0294-6899" target="_blank">
+                0009-0009-0294-6899
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECCIÓN VALOR DIFERENCIAL -->
     <section class="section section-soft">
       <div class="container benefits-card reveal">
+
         <div>
           <p class="eyebrow">Valor diferencial</p>
           <h2>Trabajo integrado</h2>
-          <p>El diagnóstico es más sólido cuando el análisis financiero, económico, fiscal y estratégico trabajan
-            juntos.</p>
+          <p>
+            El diagnóstico es más sólido cuando el análisis financiero, económico,
+            fiscal y estratégico trabajan juntos.
+          </p>
         </div>
+
         <ul class="check-list">
           <li>Interpretación clara para públicos académicos o empresariales.</li>
           <li>Indicadores explicados con lenguaje sencillo.</li>
           <li>Reportes visuales para presentaciones y exposiciones.</li>
           <li>Recomendaciones orientadas a la mejora.</li>
         </ul>
+
       </div>
     </section>
+
   </main>
+
   <footer class="footer">
     <div class="container footer-grid">
-      <div><strong>Diagnóstico Financiero Económico</strong>
-        <p>Landing page informativa para explicar, analizar y presentar la salud económica de una organización.</p>
+
+      <div>
+        <strong>Diagnóstico Financiero Económico</strong>
+        <p>
+          Landing page informativa para explicar, analizar y presentar la salud económica de una organización.
+        </p>
       </div>
-      <div><span>© 2026</span>
+
+      <div>
+        <span>© 2026</span>
         <p>Proyecto académico</p>
       </div>
+
     </div>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 
