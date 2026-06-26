@@ -6,138 +6,322 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Landing page informativa sobre diagnóstico financiero económico.">
   <title>Videos y recursos | Diagnóstico Financiero Económico</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+
   <header class="site-header">
     <nav class="navbar container">
-      <a href="index.html" class="brand" aria-label="Inicio"><span class="brand-icon">DF</span><span>Diagnóstico
-          Financiero</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú"
-        aria-expanded="false"><span></span><span></span><span></span></button>
+
+      <a href="index.html" class="brand" aria-label="Inicio">
+        <span class="brand-icon">DF</span>
+        <span>Diagnóstico Financiero</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <ul class="nav-links" id="navLinks">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="diagnostico.html">Diagnóstico</a></li>
         <li><a href="indicadores.html">Indicadores</a></li>
-        <li><a href="recursos.html">Videos y recursos</a></li>
+        <li><a href="recursos.html" class="active">Videos y recursos</a></li>
         <li><a href="equipo.html">Equipo</a></li>
         <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
       </ul>
+
     </nav>
   </header>
+
   <main>
+
+    <!-- HERO -->
     <section class="page-hero">
       <div class="container reveal">
         <p class="eyebrow">Multimedia</p>
         <h1>Videos, recursos y ejemplos visuales</h1>
-        <p>Sección pensada para no cargar demasiado el inicio y concentrar aquí el material complementario.</p>
+        <p>
+          Sección pensada para no cargar demasiado el inicio y concentrar aquí
+          el material complementario del diagnóstico financiero económico.
+        </p>
       </div>
     </section>
-   <section class="section section-dark">
-  <div class="container section-heading center reveal">
-    <p class="eyebrow light">Multimedia</p>
-    <h2>Videos recomendados</h2>
-    <p>
-      Material audiovisual para reforzar la explicación del diagnóstico financiero,
-      los indicadores económicos y el análisis empresarial.
-    </p>
-  </div>
-<div class="video-grid video-grid-4 container reveal">
 
-  <article class="video-card">
-    <div class="video-frame">
-      <video controls preload="none" playsinline poster="img/poster-video-1.jpg">
-        <source src="img/Como se realiza un diagnostico fiannciero, como se interpretan los radios o indiciadore.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
-      </video>
-    </div>
-    <div class="video-info">
-      <h3>Análisis financiero</h3>
-      <p>Introducción visual al diagnóstico financiero y la interpretación de indicadores.</p>
-    </div>
-  </article>
+    <!-- VIDEOS -->
+    <section class="section section-dark">
+      <div class="container section-heading center reveal">
+        <p class="eyebrow light">Multimedia</p>
+        <h2>Videos recomendados</h2>
+        <p>
+          Material audiovisual para reforzar la explicación del diagnóstico financiero,
+          los indicadores económicos y el análisis empresarial.
+        </p>
+      </div>
 
-  <article class="video-card">
-    <div class="video-frame">
-      <video controls preload="none" playsinline poster="img/poster-video-2.jpg">
-        <source src="img/Analisis Fianncieros BENEFICIOS.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
-      </video>
-    </div>
-    <div class="video-info">
-      <h3>Beneficios del análisis financiero</h3>
-      <p>Explicación sobre la utilidad del análisis financiero en la toma de decisiones.</p>
-    </div>
-  </article>
+      <div class="video-grid video-grid-4 container reveal">
 
-  <article class="video-card">
-    <div class="video-frame">
-      <video controls preload="none" playsinline poster="img/poster-video-3.jpg">
-        <source src="img/Análisis y diagnóstico financiero.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
-      </video>
-    </div>
-    <div class="video-info">
-      <h3>Indicadores económicos</h3>
-      <p>Material de apoyo para comprender los indicadores económicos y financieros.</p>
-    </div>
-  </article>
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="none" playsinline poster="img/poster-video-1.jpg">
+              <source src="img/Como se realiza un diagnostico fiannciero, como se interpretan los radios o indiciadore.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Análisis financiero</h3>
+            <p>Introducción visual al diagnóstico financiero y la interpretación de indicadores.</p>
+          </div>
+        </article>
 
-  <article class="video-card">
-    <div class="video-frame">
-      <video controls preload="none" playsinline poster="img/poster-video-4.jpg">
-        <source src="img/Diagnóstico económico y financiero de una empresa.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
-      </video>
-    </div>
-    <div class="video-info">
-      <h3>Diagnóstico económico empresarial</h3>
-      <p>Ejemplo visual sobre el diagnóstico económico y financiero de una empresa.</p>
-    </div>
-  </article>
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="none" playsinline poster="img/poster-video-2.jpg">
+              <source src="img/Analisis Fianncieros BENEFICIOS.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Beneficios del análisis financiero</h3>
+            <p>Explicación sobre la utilidad del análisis financiero en la toma de decisiones.</p>
+          </div>
+        </article>
 
-</div>
-</section>
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="none" playsinline poster="img/poster-video-3.jpg">
+              <source src="img/Análisis y diagnóstico financiero.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Indicadores económicos</h3>
+            <p>Material de apoyo para comprender los indicadores económicos y financieros.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-frame">
+            <video controls preload="none" playsinline poster="img/poster-video-4.jpg">
+              <source src="img/Diagnóstico económico y financiero de una empresa.mp4" type="video/mp4">
+              Tu navegador no soporta la reproducción de video.
+            </video>
+          </div>
+          <div class="video-info">
+            <h3>Diagnóstico económico empresarial</h3>
+            <p>Ejemplo visual sobre el diagnóstico económico y financiero de una empresa.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CASO PRÁCTICO -->
+    <section class="section case-section">
+      <div class="container">
+
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Caso práctico</p>
+          <h2>Diagnóstico financiero simple paso a paso</h2>
+          <p>
+            A continuación se presenta un ejemplo práctico de cómo analizar la situación financiera
+            de una empresa usando datos básicos, indicadores y una interpretación sencilla.
+          </p>
+        </div>
+
+        <div class="case-card reveal">
+
+          <div class="case-intro">
+            <div>
+              <span class="case-badge">Empresa ejemplo</span>
+              <h3>Comercial San Martín S.A.C.</h3>
+              <p>
+                La empresa desea conocer si cuenta con liquidez suficiente, si sus deudas son manejables
+                y si sus ventas generan una ganancia adecuada.
+              </p>
+            </div>
+
+            <div class="case-result">
+              <strong>Objetivo</strong>
+              <span>Evaluar liquidez, endeudamiento y rentabilidad.</span>
+            </div>
+          </div>
+
+          <div class="case-table-wrap">
+            <table class="case-table">
+              <thead>
+                <tr>
+                  <th>Dato financiero</th>
+                  <th>Monto S/</th>
+                  <th>Interpretación inicial</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Activo corriente</td>
+                  <td>50,000</td>
+                  <td>Recursos disponibles a corto plazo.</td>
+                </tr>
+                <tr>
+                  <td>Pasivo corriente</td>
+                  <td>25,000</td>
+                  <td>Deudas que deben pagarse pronto.</td>
+                </tr>
+                <tr>
+                  <td>Activo total</td>
+                  <td>120,000</td>
+                  <td>Total de bienes y derechos de la empresa.</td>
+                </tr>
+                <tr>
+                  <td>Pasivo total</td>
+                  <td>60,000</td>
+                  <td>Total de obligaciones con terceros.</td>
+                </tr>
+                <tr>
+                  <td>Ventas</td>
+                  <td>100,000</td>
+                  <td>Ingresos generados por la actividad comercial.</td>
+                </tr>
+                <tr>
+                  <td>Utilidad neta</td>
+                  <td>15,000</td>
+                  <td>Ganancia final después de costos y gastos.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="steps-grid">
+
+            <article class="step-card">
+              <span>01</span>
+              <h4>Analizar la liquidez</h4>
+              <p>
+                Se calcula dividiendo el activo corriente entre el pasivo corriente.
+              </p>
+              <div class="formula">
+                Liquidez = 50,000 / 25,000 = <strong>2.0</strong>
+              </div>
+              <p>
+                Esto significa que por cada S/ 1.00 de deuda a corto plazo,
+                la empresa tiene S/ 2.00 para responder.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <span>02</span>
+              <h4>Evaluar el endeudamiento</h4>
+              <p>
+                Se calcula dividiendo el pasivo total entre el activo total.
+              </p>
+              <div class="formula">
+                Endeudamiento = 60,000 / 120,000 = <strong>50%</strong>
+              </div>
+              <p>
+                La mitad de los activos de la empresa están financiados con deuda.
+                Es un nivel moderado, pero debe mantenerse bajo control.
+              </p>
+            </article>
+
+            <article class="step-card">
+              <span>03</span>
+              <h4>Medir la rentabilidad</h4>
+              <p>
+                Se calcula dividiendo la utilidad neta entre las ventas.
+              </p>
+              <div class="formula">
+                Rentabilidad = 15,000 / 100,000 = <strong>15%</strong>
+              </div>
+              <p>
+                Por cada S/ 100 vendidos, la empresa obtiene S/ 15 de ganancia neta.
+                Esto muestra una rentabilidad aceptable.
+              </p>
+            </article>
+
+          </div>
+
+          <div class="diagnosis-box">
+            <h3>Diagnóstico final</h3>
+            <p>
+              La empresa presenta una situación financiera relativamente favorable.
+              Tiene buena liquidez para cubrir sus obligaciones de corto plazo,
+              un endeudamiento moderado y una rentabilidad positiva. Sin embargo,
+              debe seguir controlando sus gastos, evitar endeudarse excesivamente y mantener
+              un flujo de caja ordenado para sostener su crecimiento.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CARRUSEL -->
     <section class="section container">
       <div class="section-heading reveal">
         <p class="eyebrow">Carrusel</p>
         <h2>Servicios informativos</h2>
       </div>
-      <div class="carousel-wrap reveal"><button class="carousel-btn prev">‹</button>
+
+      <div class="carousel-wrap reveal">
+        <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+
         <div class="service-carousel" id="serviceCarousel">
+
           <article class="carousel-card" style="background-image:url('img/coins.svg')">
             <h3>Soporte constante</h3>
           </article>
+
           <article class="carousel-card" style="background-image:url('img/growth.svg')">
             <h3>Análisis rápido</h3>
           </article>
+
           <article class="carousel-card" style="background-image:url('img/analysis.svg')">
             <h3>Asesoría financiera</h3>
           </article>
+
           <article class="carousel-card" style="background-image:url('img/market.svg')">
             <h3>Reportes detallados</h3>
           </article>
+
           <article class="carousel-card" style="background-image:url('img/planning.svg')">
             <h3>Predicciones</h3>
           </article>
-        </div><button class="carousel-btn next">›</button>
+
+        </div>
+
+        <button class="carousel-btn next" aria-label="Siguiente">›</button>
       </div>
     </section>
+
   </main>
+
   <footer class="footer">
     <div class="container footer-grid">
-      <div><strong>Diagnóstico Financiero Económico</strong>
-        <p>Landing page informativa para explicar, analizar y presentar la salud económica de una organización.</p>
+
+      <div>
+        <strong>Diagnóstico Financiero Económico</strong>
+        <p>
+          Landing page informativa para explicar, analizar y presentar la salud económica de una organización.
+        </p>
       </div>
-      <div><span>© 2026</span>
+
+      <div>
+        <span>© 2026</span>
         <p>Proyecto académico</p>
       </div>
+
     </div>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 
