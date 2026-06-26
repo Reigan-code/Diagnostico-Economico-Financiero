@@ -91,3 +91,29 @@ document.querySelectorAll('.dinamico-youtube').forEach((iframe) => {
     iframe.src = `https://www.youtube.com/embed/${id}`;
   }
 });
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const correo = document.getElementById("correo").value;
+    const mensaje = document.getElementById("mensaje").value;
+
+    const numeroWhatsApp = "51941427941";
+
+    const texto = `Hola, quisiera más información sobre el diagnóstico financiero.%0A%0A` +
+      `Nombre: ${nombre}%0A` +
+      `Correo: ${correo}%0A` +
+      `Mensaje: ${mensaje}`;  
+
+    const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
+
+    window.open(url, "_blank");
+  });
+}document.querySelectorAll("video").forEach((video) => {
+  video.pause();
+  video.removeAttribute("autoplay");
+  video.currentTime = 0;
+});

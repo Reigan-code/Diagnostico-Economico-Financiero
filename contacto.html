@@ -1,36 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Landing page informativa sobre diagnóstico financiero económico.">
   <title>Contacto | Diagnóstico Financiero Económico</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/style.css">
 </head>
-<body><header class="site-header">
-  <nav class="navbar container">
-    <a href="home.html" class="brand" aria-label="Inicio"><span class="brand-icon">DF</span><span>Diagnóstico Financiero</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="home.html">Inicio</a></li>
-      <li><a href="diagnostico.html">Diagnóstico</a></li>
-      <li><a href="indicadores.html">Indicadores</a></li>
-      <li><a href="recursos.html">Videos y recursos</a></li>
-      <li><a href="equipo.html">Equipo</a></li>
-      <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-<section class="page-hero"><div class="container reveal"><p class="eyebrow">Conversemos</p><h1>Contacto y solicitud de orientación</h1><p>Formulario visual para trabajos académicos, asesorías, presentaciones institucionales o páginas informativas.</p></div></section>
-<section class="section container"><div class="contact-layout"><div class="panel reveal"><h2>¿Necesitas explicar un diagnóstico financiero?</h2><p>Esta página puede adaptarse para un proyecto académico, exposición, asesoría o presentación empresarial.</p><ul class="check-list"><li>Contenido informativo claro</li><li>Videos y recursos separados</li><li>Indicadores con tabs dinámicos</li><li>Equipo y contacto en páginas propias</li></ul></div><form class="contact-form reveal"><label>Nombre<input type="text" placeholder="Tu nombre"></label><label>Correo<input type="email" placeholder="correo@ejemplo.com"></label><label>Mensaje<textarea rows="5" placeholder="Escribe tu consulta"></textarea></label><button class="btn btn-primary" type="button">Enviar mensaje</button></form></div></section>
-</main><footer class="footer">
-  <div class="container footer-grid">
-    <div><strong>Diagnóstico Financiero Económico</strong><p>Landing page informativa para explicar, analizar y presentar la salud económica de una organización.</p></div>
-    <div><span>© 2026</span><p>Proyecto académico / informativo.</p></div>
-  </div>
-</footer>
-<script src="js/main.js"></script></body></html>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand" aria-label="Inicio">
+        <span class="brand-icon">DF</span>
+        <span>Diagnóstico Financiero</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="diagnostico.html">Diagnóstico</a></li>
+        <li><a href="indicadores.html">Indicadores</a></li>
+        <li><a href="recursos.html">Videos y recursos</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="contacto.html" class="nav-cta active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Conversemos</p>
+        <h1>Contacto y solicitud de orientación</h1>
+        <p>
+          Escríbenos para recibir información sobre diagnóstico financiero,
+          análisis económico, indicadores y propuestas de mejora empresarial.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="contact-layout contact-layout-fixed">
+
+        <div class="panel reveal contact-info-box">
+          <h2>¿Necesitas explicar un diagnóstico financiero?</h2>
+          <p>
+            Esta página puede adaptarse para un proyecto académico, exposición,
+            asesoría o presentación empresarial.
+          </p>
+
+          <ul class="check-list">
+            <li>Contenido informativo claro</li>
+            <li>Indicadores financieros organizados</li>
+            <li>Análisis económico y estratégico</li>
+            <li>Contacto directo por WhatsApp</li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal contact-form-box" id="contactForm">
+          <h2>Enviar mensaje</h2>
+
+          <label for="nombre">
+            Nombre
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+          </label>
+
+          <label for="correo">
+            Correo
+            <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+          </label>
+
+          <label for="mensaje">
+            Mensaje
+            <textarea rows="5" id="mensaje" placeholder="Escribe tu consulta" required></textarea>
+          </label>
+
+          <button class="btn btn-primary contact-btn" type="submit">
+            Enviar mensaje por WhatsApp
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Diagnóstico Financiero Económico</strong>
+        <p>
+          Landing page informativa para explicar, analizar y presentar la salud económica de una organización.
+        </p>
+      </div>
+
+      <div>
+        <span>© 2026</span>
+        <p>Proyecto académico</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
